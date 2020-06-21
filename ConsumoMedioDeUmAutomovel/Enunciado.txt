@@ -1,0 +1,1 @@
+Escrever um programa para determinar o consumo médio de um automóvel.
