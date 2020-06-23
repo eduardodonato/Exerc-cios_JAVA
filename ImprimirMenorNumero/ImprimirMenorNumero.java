@@ -1,5 +1,4 @@
 
-
 package exercicios;
 
 import java.util.Scanner;
@@ -16,9 +15,9 @@ public class ImprimirMenorNumero {
 		int Num2 = sc.nextInt();
 
 		if (Num1 < Num2) {
-			System.out.printf("O numero %d é menor que o numero %d", Num1, Num2);
+			System.out.printf("O numero %d menor que o numero %d", Num1, Num2);
 		} else if (Num1 > Num2) {
-			System.out.printf("O numero %d é menor que o numero %d", Num2, Num1);
+			System.out.printf("O numero %d menor que o numero %d", Num2, Num1);
 		}
 
 		sc.close();

@@ -1,1 +1,1 @@
-/*Entrar com dois números e imprimir o menor número (suponha números diferentes). */
+Fça um programa que recebe dois numeros inteiros e mostre na saida uma frase informando qual número é o menor
