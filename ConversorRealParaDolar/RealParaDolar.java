@@ -1,5 +1,4 @@
 
-
 package exercicios;
 
 import java.util.Scanner;
@@ -11,12 +10,12 @@ public class RealParaDolar {
 		System.out.println("Informe o valor da cotação atual do Dolar: ");
 		double Cotacao = sc.nextDouble();
 		
-		System.out.println("Informe qual o valor de Dolares que você possui: ");
+		System.out.println("Informe o valor em Dolares que você possui: ");
 		double Dolar = sc.nextDouble();
 		
 		double Real = Dolar * Cotacao; 
 		
-		System.out.println("Você possui $" + Real + " Reais em dólares");
+		System.out.printf("Você possui R$ %.2f reais em dólares", Real);
 		
 		
 		
