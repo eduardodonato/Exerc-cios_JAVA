@@ -11,8 +11,7 @@ public class RendimentoDeValorEmConta {
 
 		double Correcao = (ValorDep * 0.70);
 		double ValorFinal = ValorDep + Correcao;
-		System.out.printf("O valor depositado renderá " + Correcao + " por mês.");
-		System.out.println();
+		System.out.println("O valor depositado renderá " + Correcao + " por mês.");
 		System.out.printf("Valor corrigido após um més será %.2f " , ValorFinal);
 
 		sc.close();
