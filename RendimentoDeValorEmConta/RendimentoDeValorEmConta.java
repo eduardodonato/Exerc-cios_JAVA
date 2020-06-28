@@ -1,6 +1,3 @@
-/*Faça um programa que receba um valor que foi deposit ado e exiba o valor
-com rendimento após um mês. 
-Considere fixo o juro da poupança em 0.70 % a. m. */
 
 package exercicios;
 
@@ -11,12 +8,13 @@ public class RendimentoDeValorEmConta {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Informe o valor que foi depositado: ");
 		double ValorDep = sc.nextDouble();
-		
-		double Correcao = (ValorDep * 0.70)/100;
-		System.out.println("O valor depositado renderá " + Correcao + "por mês.");
-				
-		
-		
+
+		double Correcao = (ValorDep * 0.70);
+		double ValorFinal = ValorDep + Correcao;
+		System.out.printf("O valor depositado renderá " + Correcao + " por mês.");
+		System.out.println();
+		System.out.printf("Valor corrigido após um més será %.2f " , ValorFinal);
+
 		sc.close();
 	}
 
