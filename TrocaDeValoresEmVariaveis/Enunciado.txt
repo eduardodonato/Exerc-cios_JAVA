@@ -1,0 +1,10 @@
+/* Escrever uma programa em que leia dois  valores para as variáveis 'a' e 'b', e 
+efetuar as trocas dos valores de forma que a variável 'a' passe a possuir o valor 
+da variável 'b' e a variável 'b' passe a possuir o  valor da variável 'a'. Apresentar 
+os valores trocados.  
+ 
+Lembrando que temos que ter 3 variáveis para que uma haja como variável 
+de armazenamento, ou seja, para evitar que o valor original de 'a' se perca. Portanto é 
+necessário associar a uma outra variável (denominada usualmente de 
+"variável auxiliar") posteriormente, estabelecer uma associação de 'a' com o valor em 'b' 
+e, por último, associar 'b' ao valor "salvo" na variável auxili 'a'. /*/
