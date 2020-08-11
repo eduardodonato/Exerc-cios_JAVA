@@ -1,0 +1,5 @@
+/*Faça um algoritmo para ler: número da conta do cliente, saldo, débito e
+crédito. Após, calcula r e escrever o saldo atual (saldo atual = saldo - 
+débito + crédito). Também testar se  saldo atual for maior ou igual a 
+zero escrever a men sagem 'Saldo Positivo', sen ão escrever a 
+mensagem 'Saldo Negativo'.  */
